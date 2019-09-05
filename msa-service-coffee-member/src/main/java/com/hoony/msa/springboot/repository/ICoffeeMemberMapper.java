@@ -9,4 +9,5 @@ public interface ICoffeeMemberMapper {
 	MemberDVO existsByMemberName(MemberDVO memberDVO);
 	int createMemberTable();
 	int insertMemberData();
+
 }
